@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Translator App</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="wrapper">
+      <section class="txt-input">
+        <textarea class="from-text" placeholder="Enter your text"></textarea>
+        <textarea class="to-text" placeholder="Translation" readonly disabled></textarea>
+      </section>
+      <ul class="controls">
+        <li class="row from">
+          <div class="icons">
+            <i class="fas fa-volume-up"></i>
+            <i class="fas fa-copy"></i>
+          </div>
+          <select>
+          </select>
+        </li>
+        <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+        <li class="row to">
+          <select>
+          </select>
+          <div class="icons">
+            <i class="fas fa-volume-up"></i>
+            <i class="fas fa-copy"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button>Translate</button>
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/countries.js"></script>
+</body>
+
+</html>
