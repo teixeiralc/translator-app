@@ -40,8 +40,8 @@ body {
   border: none;
   background: none;
   font-size: 1.125rem;
-  /* border-radius: 5px; */
   padding: 10px;
+  resize: none;
 }
 
 .txt-input .to-text {
@@ -84,6 +84,7 @@ li,
 
 .controls .row select {
   border: none;
+  outline: none;
   background: none;
   font-size: 1.125rem;
 }
@@ -104,7 +105,7 @@ li,
   font-size: 1.125rem;
   border-radius: 5px;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: 500;
-  color: #351010;
+  color: #fff;
 }
